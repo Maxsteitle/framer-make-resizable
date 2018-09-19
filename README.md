@@ -1,4 +1,4 @@
-# Framer Make Resizable
+# framer-Make Resizable
 
 ### 1st...
 
