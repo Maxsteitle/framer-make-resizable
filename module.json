@@ -1,0 +1,9 @@
+{
+    "name": "Make Resizable",
+    "description": "Make any layer resizable with a minimum width/height",
+    "author": "Max Steitle",
+
+    "require": "makeResizable = require 'makeResizable'",
+    "install": "makeResizable.coffee",
+    "example": "example.coffee",
+}
