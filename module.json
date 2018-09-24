@@ -6,5 +6,4 @@
     "require": "makeResizable = require 'makeResizable'",
     "install": "makeResizable.coffee",
     "example": "example.coffee"
-    
 }
