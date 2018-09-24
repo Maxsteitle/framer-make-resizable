@@ -1,5 +1,8 @@
 # framer-Make Resizable
 
+Make any layer resizable with a minimum width and height. Also allows the layer to become draggable, which is great to replicate desktop window surfaces.
+
+
 ### Install with Framer Modules
 <a href='https://open.framermodules.com/<make-resizable>'>
     <img alt='Install with Framer Modules'
