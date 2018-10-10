@@ -84,52 +84,52 @@ makeResizable = (layer, minWidth, minHeight, headerHeight) =>
 
 	# Create Edges
 	brCorner = new Layer
-		name: "brCorner"
+		name: ".brCorner"
 		midX: layer.width + layer.x
 		midY: layer.height + layer.y
 		size: margin
 
 	blCorner = new Layer
-		name: "blCorner"
+		name: ".blCorner"
 		midX: layer.x
 		midY: layer.height + layer.y
 		size: margin
 
 	tlCorner = new Layer
-		name: "tlCorner"
+		name: ".tlCorner"
 		midX: layer.x
 		midY: layer.y
 		size: margin
 
 	trCorner = new Layer
-		name: "trCorner"
+		name: ".trCorner"
 		midX: layer.width + layer.x
 		midY: layer.y
 		size: margin
 
 	top = new Layer
-		name: "top"
+		name: ".top"
 		x: layer.x + margin/2
 		midY: layer.y
 		height: margin
 		width: layer.width - margin
 
 	bottom = new Layer
-		name: "bottom"
+		name: ".bottom"
 		x: layer.x + margin/2
 		midY: layer.y + layer.height
 		height: margin
 		width: layer.width - margin
 
 	left = new Layer
-		name: "left"
+		name: ".left"
 		midX: layer.x
 		width: margin
 		y: layer.y + margin/2
 		height: layer.height - margin
 
 	right = new Layer
-		name: "right"
+		name: ".right"
 		midX: layer.x + layer.width
 		width: margin
 		y: layer.y + margin/2
